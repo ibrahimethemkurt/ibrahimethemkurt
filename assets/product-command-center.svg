@@ -1,0 +1,145 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">İbrahim Ethem Kurt — Product Command Center</title>
+  <desc id="desc">Animated product delivery flow connecting discovery, prioritization, alignment, delivery, and learning.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="48" y1="22" x2="1150" y2="418" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1830"/>
+      <stop offset="0.56" stop-color="#081321"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="88" y1="0" x2="1112" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3985FF"/>
+      <stop offset="0.5" stop-color="#42D3FF"/>
+      <stop offset="1" stop-color="#E5B84B"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#42D3FF" stop-opacity="0"/>
+      <stop offset="0.48" stop-color="#42D3FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#A7EBFF" stop-opacity="0.22"/>
+      <stop offset="0.52" stop-color="#42D3FF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#42D3FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="0" cy="0" r="1" gradientTransform="translate(976 74) rotate(135) scale(480 300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A7BFF" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#1A7BFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" stroke="#B9D9FF" stroke-opacity="0.055"/>
+      <circle cx="1" cy="1" r="1" fill="#8BBFFF" fill-opacity="0.12"/>
+    </pattern>
+    <filter id="soft-glow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect x="1" y="1" width="1198" height="428" rx="27"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .display { font-family: "Segoe UI", Arial, sans-serif; }
+    .utility { font-family: Consolas, "Courier New", monospace; }
+    .flow-line { animation: flow 5s linear infinite; }
+    .scan { animation: scan 8s ease-in-out infinite; }
+    .status { animation: status 2.4s ease-in-out infinite; }
+    .node-1 { animation: pulse 5s ease-in-out infinite; animation-delay: 0s; }
+    .node-2 { animation: pulse 5s ease-in-out infinite; animation-delay: 1s; }
+    .node-3 { animation: pulse 5s ease-in-out infinite; animation-delay: 2s; }
+    .node-4 { animation: pulse 5s ease-in-out infinite; animation-delay: 3s; }
+    .node-5 { animation: pulse 5s ease-in-out infinite; animation-delay: 4s; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+
+    @keyframes flow {
+      to { stroke-dashoffset: -110; }
+    }
+    @keyframes scan {
+      0%, 12% { transform: translateX(-600px); opacity: 0; }
+      24%, 72% { opacity: 1; }
+      88%, 100% { transform: translateX(1450px); opacity: 0; }
+    }
+    @keyframes pulse {
+      0%, 15%, 100% { opacity: 0.38; }
+      7% { opacity: 1; }
+    }
+    @keyframes status {
+      0%, 100% { opacity: 0.38; }
+      50% { opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 48% { opacity: 1; }
+      49%, 100% { opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .flow-line, .scan, .status, .node-1, .node-2, .node-3, .node-4, .node-5, .cursor { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect x="1" y="1" width="1198" height="428" rx="27" fill="url(#background)"/>
+    <rect x="1" y="1" width="1198" height="428" fill="url(#grid)"/>
+    <rect x="1" y="1" width="1198" height="428" fill="url(#spotlight)"/>
+    <rect class="scan" x="-520" y="1" width="520" height="428" fill="url(#beam)"/>
+
+    <path d="M0 0H370L0 370V0Z" fill="#3B82F6" fill-opacity="0.035"/>
+    <path d="M1200 430H880L1200 110V430Z" fill="#E5B84B" fill-opacity="0.035"/>
+
+    <g transform="translate(88 55)">
+      <circle class="status" cx="6" cy="6" r="6" fill="#42D3FF" filter="url(#soft-glow)"/>
+      <text class="utility" x="24" y="11" fill="#9DB1CC" font-size="15" font-weight="600" letter-spacing="2.4">PRODUCT • PEOPLE • DELIVERY</text>
+      <text class="utility" x="1010" y="11" text-anchor="end" fill="#6F87A6" font-size="13" letter-spacing="1.5">IST / TR</text>
+    </g>
+
+    <text class="display" x="86" y="150" fill="#F2F7FF" font-size="58" font-weight="740" letter-spacing="-1.6">İbrahim Ethem Kurt</text>
+    <text class="display" x="89" y="196" fill="#AFC1D8" font-size="23" font-weight="400">Turning ambiguity into clear priorities and measurable outcomes.</text>
+
+    <g transform="translate(88 225)">
+      <rect width="204" height="38" rx="19" fill="#3985FF" fill-opacity="0.12" stroke="#3985FF" stroke-opacity="0.45"/>
+      <text class="utility" x="102" y="25" text-anchor="middle" fill="#8DB9FF" font-size="13" font-weight="700" letter-spacing="1.2">PRODUCT OWNERSHIP</text>
+
+      <rect x="216" width="116" height="38" rx="19" fill="#42D3FF" fill-opacity="0.1" stroke="#42D3FF" stroke-opacity="0.42"/>
+      <text class="utility" x="274" y="25" text-anchor="middle" fill="#86E7FF" font-size="13" font-weight="700" letter-spacing="1.2">SCRUM</text>
+
+      <rect x="344" width="212" height="38" rx="19" fill="#E5B84B" fill-opacity="0.09" stroke="#E5B84B" stroke-opacity="0.42"/>
+      <text class="utility" x="450" y="25" text-anchor="middle" fill="#F1CD73" font-size="13" font-weight="700" letter-spacing="1.2">PROJECT MANAGEMENT</text>
+      <rect class="cursor" x="573" y="7" width="2" height="24" rx="1" fill="#42D3FF"/>
+    </g>
+
+    <path d="M109 333H1091" stroke="#1F3654" stroke-width="2"/>
+    <path class="flow-line" d="M109 333H1091" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 20"/>
+
+    <g class="node-1">
+      <circle cx="109" cy="333" r="14" fill="#0B1830" stroke="#3985FF" stroke-width="2"/>
+      <circle cx="109" cy="333" r="5" fill="#3985FF" filter="url(#soft-glow)"/>
+    </g>
+    <g class="node-2">
+      <circle cx="354" cy="333" r="14" fill="#0B1830" stroke="#3CA9FF" stroke-width="2"/>
+      <circle cx="354" cy="333" r="5" fill="#3CA9FF" filter="url(#soft-glow)"/>
+    </g>
+    <g class="node-3">
+      <circle cx="600" cy="333" r="14" fill="#0B1830" stroke="#42D3FF" stroke-width="2"/>
+      <circle cx="600" cy="333" r="5" fill="#42D3FF" filter="url(#soft-glow)"/>
+    </g>
+    <g class="node-4">
+      <circle cx="846" cy="333" r="14" fill="#0B1830" stroke="#7FD1C7" stroke-width="2"/>
+      <circle cx="846" cy="333" r="5" fill="#7FD1C7" filter="url(#soft-glow)"/>
+    </g>
+    <g class="node-5">
+      <circle cx="1091" cy="333" r="14" fill="#0B1830" stroke="#E5B84B" stroke-width="2"/>
+      <circle cx="1091" cy="333" r="5" fill="#E5B84B" filter="url(#soft-glow)"/>
+    </g>
+
+    <g class="utility" fill="#AFC1D8" font-size="14" font-weight="600" letter-spacing="1.1">
+      <text x="109" y="382" text-anchor="middle">DISCOVER</text>
+      <text x="354" y="382" text-anchor="middle">PRIORITIZE</text>
+      <text x="600" y="382" text-anchor="middle">ALIGN</text>
+      <text x="846" y="382" text-anchor="middle">DELIVER</text>
+      <text x="1091" y="382" text-anchor="middle">LEARN</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="428" rx="27" stroke="url(#signal)" stroke-opacity="0.42" stroke-width="2"/>
+</svg>
