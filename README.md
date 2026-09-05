@@ -1,51 +1,32 @@
 <p align="center">
-  <img src="./assets/product-command-center.svg" width="100%" alt="İbrahim Ethem Kurt — Product Owner, Scrum and Project Management" />
+  <img src="./assets/product-command-center.svg" width="100%" alt="İbrahim Ethem Kurt — Product Ownership, Scrum and Project Management. Bandırma, TR." />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PRODUCT%20OWNERSHIP-2563EB?style=for-the-badge" alt="Product Ownership" />
-  <img src="https://img.shields.io/badge/SCRUM-0891B2?style=for-the-badge" alt="Scrum" />
-  <img src="https://img.shields.io/badge/PROJECT%20MANAGEMENT-B68A2C?style=for-the-badge" alt="Project Management" />
+  A Management Information Systems background. A growing focus on <b>Product Ownership, Scrum, and Project Management.</b><br />
+  Curious about the problem. Intentional about priorities. Always learning from the outcome.
 </p>
 
-## From ambiguity to actionable work
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/product-desk-mobile.svg" />
+  <img src="./assets/product-desk.svg" width="100%" alt="The Product Desk. Understand: Which problem matters? Listen to users, surface assumptions, and frame the need. Decide: What comes first? Weigh impact, make trade-offs, and align on a shared goal. Learn: Did it create value? Deliver in small steps, seek feedback, and revisit the plan. Exploring product discovery, Scrum, and project planning." />
+</picture>
 
-I turn user needs and business goals into clear priorities, actionable plans, and measurable outcomes. With a background in **Management Information Systems**, I am building my career at the intersection of product, people, and delivery.
+<br />
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Product lens</h3>
-      <ul>
-        <li>Discovery and problem framing</li>
-        <li>Requirements and backlog shaping</li>
-        <li>Prioritization and roadmap planning</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Delivery lens</h3>
-      <ul>
-        <li>Scrum practices and facilitation</li>
-        <li>Stakeholder alignment</li>
-        <li>Risk tracking and continuous improvement</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-## Now
-
-```text
-BUILDING   Product and project management case studies
-LEARNING   Product metrics, discovery, and agile delivery
-VALUING    Clarity • Evidence • Transparency • Iteration
-```
+<a href="https://agilemanifesto.org/">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/agile-values-mobile.svg" />
+    <img src="./assets/agile-values.svg" width="100%" alt="Agile Manifesto — the four values. Individuals and interactions over processes and tools. Working software over comprehensive documentation. Customer collaboration over contract negotiation. Responding to change over following a plan. Both sides have value; the left-hand items receive greater emphasis. Read the original at agilemanifesto.org." />
+  </picture>
+</a>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ibrahimethemkurt">
-    <img src="https://img.shields.io/badge/LET%27S%20CONNECT-LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn" />
-  </a>
-  <a href="https://github.com/ibrahimethemkurt">
-    <img src="https://img.shields.io/badge/EXPLORE-GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore my GitHub" />
-  </a>
+  Four values from the <a href="https://agilemanifesto.org/">Manifesto for Agile Software Development</a> · 2001
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ibrahimethemkurt">Let's connect on LinkedIn ↗</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/ibrahimethemkurt?tab=repositories">Explore my projects ↗</a>
 </p>

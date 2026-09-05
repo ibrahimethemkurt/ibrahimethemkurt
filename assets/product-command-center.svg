@@ -90,7 +90,7 @@
     <g transform="translate(88 55)">
       <circle class="status" cx="6" cy="6" r="6" fill="#42D3FF" filter="url(#soft-glow)"/>
       <text class="utility" x="24" y="11" fill="#9DB1CC" font-size="15" font-weight="600" letter-spacing="2.4">PRODUCT • PEOPLE • DELIVERY</text>
-      <text class="utility" x="1010" y="11" text-anchor="end" fill="#6F87A6" font-size="13" letter-spacing="1.5">IST / TR</text>
+      <text class="utility" x="1010" y="11" text-anchor="end" fill="#9DB1CC" font-size="13" letter-spacing="1.5">BANDIRMA / TR</text>
     </g>
 
     <text class="display" x="86" y="150" fill="#F2F7FF" font-size="58" font-weight="740" letter-spacing="-1.6">İbrahim Ethem Kurt</text>
