@@ -25,10 +25,10 @@ function editorial(theme, mobile) {
   s += txt(left, mobile ? 179 : 165, 'Management Information Systems', mobile ? 26 : 20, t.muted);
   s += multiline(mobile ? left : 460, mobile ? 239 : 64, mobile
     ? ['I am developing my skills in', 'Product Ownership, Scrum', 'and Project Management.']
-    : ['I am developing my skills in Product', 'Ownership, Scrum and Project Management.'], mobile ? 29 : 24, t.fg, mobile ? 42 : 35);
+    : ['I am developing my skills in Product', 'Ownership, Scrum and Project Management.'], mobile ? 30 : 24, t.fg, mobile ? 42 : 35);
   s += multiline(mobile ? left : 460, mobile ? 399 : 145, mobile
     ? ['My goal is to make products', 'easier to use.']
-    : ['My goal is to make products easier to use.'], mobile ? 29 : 24, t.muted, 42);
+    : ['My goal is to make products easier to use.'], mobile ? 30 : 24, t.muted, 42);
   s += line(left, mobile ? 480 : 206, right - left, t.line);
   s += txt(left, mobile ? 529 : 255, 'Agile Manifesto', mobile ? 31 : 28, t.fg, 'font-weight="600"');
   s += txt(right, mobile ? 528 : 254, '2001', mobile ? 21 : 17, t.muted, 'class="label" text-anchor="end"');
@@ -40,9 +40,9 @@ function editorial(theme, mobile) {
   ];
   values.forEach(([value, supporting], i) => {
     const y = (mobile ? 583 : 309) + i * (mobile ? 105 : 57);
-    s += txt(left, y, value, mobile ? 29 : 26, t.fg, 'font-weight="500"');
+    s += txt(left, y, value, mobile ? 30 : 26, t.fg, 'font-weight="500"');
     if (mobile) {
-      s += txt(left, y + 38, `over ${supporting}`, 28, t.muted);
+      s += txt(left, y + 38, `over ${supporting}`, 30, t.muted);
     } else {
       s += txt(484, y, 'over', 21, t.muted, 'font-style="italic"');
       s += txt(552, y, supporting, 24, t.muted);
@@ -51,19 +51,19 @@ function editorial(theme, mobile) {
   });
   s += multiline(left, mobile ? 991 : 547, mobile
     ? ['Both sides have value; the items', 'on the left receive greater emphasis.']
-    : ['Both sides have value; the items on the left receive greater emphasis.'], mobile ? 28 : 22, t.muted, 38);
+    : ['Both sides have value; the items on the left receive greater emphasis.'], mobile ? 30 : 22, t.muted, 38);
   return wrap(w, h, 'Product focus and the four Agile Manifesto values', s);
 }
 
 function social(theme, network) {
   const t = themes[theme];
-  let s = `<rect x=".5" y=".5" width="147" height="47" rx="8" fill="${t.button}" stroke="${t.line}"/>`;
+  let s = `<rect x=".5" y=".5" width="131" height="47" rx="8" fill="${t.button}" stroke="${t.line}"/>`;
   s += network === 'LinkedIn'
-    ? `<g transform="translate(15 15)" fill="${t.fg}"><circle cx="2" cy="2" r="1.7"/><path d="M.5 6h3v12h-3zM7 6h3v1.8C11 5 18 4.8 18 11v7h-3v-7c0-3-5-3-5 0v7H7z"/></g>`
-    : `<g transform="translate(15 15)" fill="none" stroke="${t.fg}" stroke-width="1.6"><rect width="18" height="18" rx="5"/><circle cx="9" cy="9" r="4"/><circle cx="14" cy="4" r=".6" fill="${t.fg}"/></g>`;
-  s += txt(43, 30, network, 15, t.fg, 'font-weight="500"');
-  s += `<path d="M126 18h6v6m-7 1 7-7" fill="none" stroke="${t.muted}" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>`;
-  return wrap(148, 48, network, s);
+    ? `<g transform="translate(12 15)" fill="${t.fg}"><circle cx="2" cy="2" r="1.7"/><path d="M.5 6h3v12h-3zM7 6h3v1.8C11 5 18 4.8 18 11v7h-3v-7c0-3-5-3-5 0v7H7z"/></g>`
+    : `<g transform="translate(12 15)" fill="none" stroke="${t.fg}" stroke-width="1.6"><rect width="18" height="18" rx="5"/><circle cx="9" cy="9" r="4"/><circle cx="14" cy="4" r=".6" fill="${t.fg}"/></g>`;
+  s += txt(37, 30, network, 14, t.fg, 'font-weight="500"');
+  s += `<path d="M116 18h6v6m-7 1 7-7" fill="none" stroke="${t.muted}" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>`;
+  return wrap(132, 48, network, s);
 }
 
 function heroMobile() {

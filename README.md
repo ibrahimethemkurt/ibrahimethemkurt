@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ibrahimethemkurt/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/linkedin-dark.svg" /><img src="./assets/linkedin-light.svg" width="148" height="48" alt="LinkedIn — İbrahim Ethem Kurt" /></picture></a>
+  <a href="https://www.linkedin.com/in/ibrahimethemkurt/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/linkedin-dark.svg" /><img src="./assets/linkedin-light.svg" width="132" height="48" alt="LinkedIn — İbrahim Ethem Kurt" /></picture></a>
   &nbsp;
-  <a href="https://www.instagram.com/ibrahimethemkurtcom/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/instagram-dark.svg" /><img src="./assets/instagram-light.svg" width="148" height="48" alt="Instagram — ibrahimethemkurtcom" /></picture></a>
+  <a href="https://www.instagram.com/ibrahimethemkurtcom/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/instagram-dark.svg" /><img src="./assets/instagram-light.svg" width="132" height="48" alt="Instagram — ibrahimethemkurtcom" /></picture></a>
 </p>
