@@ -1,16 +1,29 @@
-## Hi there 👋
+# İbrahim Ethem Kurt
 
-<!--
-**ibrahimethemkurt/ibrahimethemkurt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Product-minded professional focused on Product Ownership, Scrum, and Project Management.**
 
-Here are some ideas to get you started:
+I turn user needs and business goals into clear priorities, actionable plans, and measurable outcomes. With a background in Management Information Systems, I am building my career at the intersection of product, people, and delivery.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Focus
+
+- Product discovery and requirements
+- Backlog prioritization and roadmap planning
+- Scrum practices and team facilitation
+- Stakeholder communication and alignment
+- Project planning, risk tracking, and continuous improvement
+
+## How I work
+
+`Discover → Prioritize → Align → Deliver → Learn`
+
+I value clear communication, evidence-based decisions, transparent processes, and steady iteration.
+
+## Currently
+
+- Building product and project management case studies
+- Deepening my Scrum and agile delivery practice
+- Learning how product metrics connect user value with business outcomes
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/ibrahimethemkurt) · Türkiye
