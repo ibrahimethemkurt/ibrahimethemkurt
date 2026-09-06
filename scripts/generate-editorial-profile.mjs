@@ -17,21 +17,21 @@ const wrap = (w, h, title, body) => `<svg xmlns="http://www.w3.org/2000/svg" wid
 const write = (name, source) => { writeFileSync(new URL(name, assets), source); console.log(name); };
 
 function editorial(theme, mobile) {
-  const t = themes[theme], w = mobile ? 520 : 1000, h = mobile ? 1064 : 594;
+  const t = themes[theme], w = mobile ? 520 : 1000, h = mobile ? 1028 : 520;
   const left = mobile ? 20 : 32, right = w - left;
   let s = `<rect width="${w}" height="${h}" fill="${t.bg}"/>`;
-  s += txt(left, mobile ? 34 : 32, 'MY FOCUS', mobile ? 20 : 16, t.accent, 'class="label"');
-  s += multiline(left, mobile ? 87 : 80, ['Simple products.', 'Real user needs.'], mobile ? 43 : 40, t.fg, mobile ? 50 : 47, 'font-weight="600" letter-spacing="-.8"');
-  s += txt(left, mobile ? 179 : 165, 'Management Information Systems', mobile ? 26 : 20, t.muted);
-  s += multiline(mobile ? left : 460, mobile ? 239 : 64, mobile
+  s += txt(left, mobile ? 32 : 29, 'MY FOCUS', mobile ? 19 : 14, t.accent, 'class="label"');
+  s += multiline(left, mobile ? 82 : 71, ['Simple products.', 'Real user needs.'], mobile ? 40 : 34, t.fg, mobile ? 47 : 40, 'font-weight="500" letter-spacing="-.55"');
+  s += txt(left, mobile ? 166 : 148, 'Management Information Systems', mobile ? 25 : 18, t.muted);
+  s += multiline(mobile ? left : 460, mobile ? 225 : 54, mobile
     ? ['I am developing my skills in', 'Product Ownership, Scrum', 'and Project Management.']
-    : ['I am developing my skills in Product', 'Ownership, Scrum and Project Management.'], mobile ? 30 : 24, t.fg, mobile ? 42 : 35);
-  s += multiline(mobile ? left : 460, mobile ? 399 : 145, mobile
+    : ['I am developing my skills in Product', 'Ownership, Scrum and Project Management.'], mobile ? 30 : 21, t.fg, mobile ? 42 : 31);
+  s += multiline(mobile ? left : 460, mobile ? 385 : 128, mobile
     ? ['My goal is to make products', 'easier to use.']
-    : ['My goal is to make products easier to use.'], mobile ? 30 : 24, t.muted, 42);
-  s += line(left, mobile ? 480 : 206, right - left, t.line);
-  s += txt(left, mobile ? 529 : 255, 'Agile Manifesto', mobile ? 31 : 28, t.fg, 'font-weight="600"');
-  s += txt(right, mobile ? 528 : 254, '2001', mobile ? 21 : 17, t.muted, 'class="label" text-anchor="end"');
+    : ['My goal is to make products easier to use.'], mobile ? 30 : 21, t.muted, 42);
+  s += line(left, mobile ? 464 : 180, right - left, t.line);
+  s += txt(left, mobile ? 511 : 221, 'Agile Manifesto', mobile ? 30 : 24, t.fg, 'font-weight="500"');
+  s += txt(right, mobile ? 510 : 220, '2001', mobile ? 20 : 14, t.muted, 'class="label" text-anchor="end"');
   const values = [
     ['Individuals and interactions', 'processes and tools'],
     ['Working software', 'comprehensive documentation'],
@@ -39,19 +39,19 @@ function editorial(theme, mobile) {
     ['Responding to change', 'following a plan'],
   ];
   values.forEach(([value, supporting], i) => {
-    const y = (mobile ? 583 : 309) + i * (mobile ? 105 : 57);
-    s += txt(left, y, value, mobile ? 30 : 26, t.fg, 'font-weight="500"');
+    const y = (mobile ? 565 : 269) + i * (mobile ? 100 : 49);
+    s += txt(left, y, value, mobile ? 30 : 22, t.fg, 'font-weight="400"');
     if (mobile) {
-      s += txt(left, y + 38, `over ${supporting}`, 30, t.muted);
+      s += txt(left, y + 37, `over ${supporting}`, 29, t.muted);
     } else {
-      s += txt(484, y, 'over', 21, t.muted, 'font-style="italic"');
-      s += txt(552, y, supporting, 24, t.muted);
+      s += txt(484, y, 'over', 18, t.muted, 'font-style="italic"');
+      s += txt(552, y, supporting, 21, t.muted);
     }
-    if (i < 3) s += line(left, y + (mobile ? 63 : 23), right - left, t.line);
+    if (i < 3) s += line(left, y + (mobile ? 61 : 20), right - left, t.line);
   });
-  s += multiline(left, mobile ? 991 : 547, mobile
+  s += multiline(left, mobile ? 962 : 482, mobile
     ? ['Both sides have value; the items', 'on the left receive greater emphasis.']
-    : ['Both sides have value; the items on the left receive greater emphasis.'], mobile ? 30 : 22, t.muted, 38);
+    : ['Both sides have value; the items on the left receive greater emphasis.'], mobile ? 29 : 18, t.muted, 37);
   return wrap(w, h, 'Product focus and the four Agile Manifesto values', s);
 }
 
@@ -81,7 +81,7 @@ function heroMobile() {
     s += txt(x+w/2,242,label,12,color,'class="utility" text-anchor="middle"');
   }
   s += '<path class="flow-line" d="M44 305H476" stroke="url(#signal)" stroke-width="2" stroke-dasharray="10 14"/>';
-  ['DISCOVER','PRIORITIZE','ALIGN','DELIVER','LEARN'].forEach((label,i)=>{
+  ['DISCOVER','DEFINE','PRIORITIZE','DELIVER','MEASURE'].forEach((label,i)=>{
     const x=44+i*108,color=['#3985FF','#3CA9FF','#42D3FF','#7FD1C7','#E5B84B'][i];
     s += `<g class="node-${i+1}"><circle cx="${x}" cy="305" r="9" fill="#0B1830" stroke="${color}"/><circle cx="${x}" cy="305" r="3" fill="${color}"/></g>`;
     s += txt(x,342,label,12,'#AFC1D8','class="utility" text-anchor="middle"');

@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 760px)" srcset="./assets/profile-hero-mobile.svg" />
-  <img src="./assets/product-command-center.svg" width="100%" alt="İbrahim Ethem Kurt · Bandırma, TR. Simple products, shaped by real user needs. Product Ownership, Scrum and Project Management. Discover, prioritize, align, deliver, learn." />
+  <img src="./assets/product-command-center.svg" width="100%" alt="İbrahim Ethem Kurt · Bandırma, TR. Simple products, shaped by real user needs. Product Ownership, Scrum and Project Management. Discover, define, prioritize, deliver, measure." />
 </picture>
 
 <br />

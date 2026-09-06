@@ -1,6 +1,6 @@
 <svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">İbrahim Ethem Kurt — Product Command Center</title>
-  <desc id="desc">Animated product delivery flow connecting discovery, prioritization, alignment, delivery, and learning.</desc>
+  <desc id="desc">Animated product value loop connecting discovery, definition, prioritization, delivery, and measurement.</desc>
 
   <defs>
     <linearGradient id="background" x1="48" y1="22" x2="1150" y2="418" gradientUnits="userSpaceOnUse">
@@ -134,10 +134,10 @@
 
     <g class="utility" fill="#AFC1D8" font-size="14" font-weight="600" letter-spacing="1.1">
       <text x="109" y="382" text-anchor="middle">DISCOVER</text>
-      <text x="354" y="382" text-anchor="middle">PRIORITIZE</text>
-      <text x="600" y="382" text-anchor="middle">ALIGN</text>
+      <text x="354" y="382" text-anchor="middle">DEFINE</text>
+      <text x="600" y="382" text-anchor="middle">PRIORITIZE</text>
       <text x="846" y="382" text-anchor="middle">DELIVER</text>
-      <text x="1091" y="382" text-anchor="middle">LEARN</text>
+      <text x="1091" y="382" text-anchor="middle">MEASURE</text>
     </g>
   </g>
 
